@@ -17,7 +17,7 @@ struct ColorSquare: View {
 }
 
 @available(iOS 16.0, *)
-public struct SwiftUIView: View {
+public struct ColorGrid: View {
     
     let ROWS = 3
     let COLS = 3
@@ -68,8 +68,8 @@ public struct SwiftUIView: View {
 }
 
 @available(iOS 16.0, *)
-struct SwiftUIView_Previews: PreviewProvider {
+struct ColorGrid_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        ColorGrid()
     }
 }
